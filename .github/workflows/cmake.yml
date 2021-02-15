@@ -24,7 +24,7 @@ jobs:
     
     - name: Get dependencies
       run: |
-        brew install openssl
+        brew install openssl glib-openssl
 
     - name: Configure CMake
       # Use a bash shell so we can use the same syntax for environment variable
